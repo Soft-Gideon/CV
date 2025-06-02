@@ -36,6 +36,7 @@ export const scrollHeader = {
     scrollHeader.currentScrollY = window.scrollY;
   }
 }
+
 header.addEventListener('mouseenter', () => {
   scrollHeader.cursorOn = true;
 })
